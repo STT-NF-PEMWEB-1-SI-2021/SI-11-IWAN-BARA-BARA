@@ -1,2 +1,2 @@
-# SI-11-IWAN-BARA-BARA
- Repository milik Iwan Bara Bara Berisikan Tugas dan praktikum
+# SI-11-iwan-bara-bara
+ Repository milik iwan bara bara Berisikan Tugas dan praktikum
