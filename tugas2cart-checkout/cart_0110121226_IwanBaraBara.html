@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>cart</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            width: 900px;
+            margin: 20px auto;
+            padding: 15px;
+        }
+
+        table {
+            border-style: solid;
+            width: 100%;
+            border: 1px solid black
+        }
+
+        .container {
+            display: flex;
+        }
+
+        aside {
+            width: 50%;
+            background-color: red;
+            display: grid;
+        }
+
+        aside table tr td {
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="checkout_0110121226_IwanBaraBara.html" method="post">
+        <table>
+            <tr>
+                <th>SHOPPE</th>
+                <th><a href="">Kategoty 1 |</a>
+                    <a href="">Kategoty 2 |</a>
+                    <a href="">Kategoty 3 |</a>
+                </th>
+                <th>
+                    <i class="material-icons">search</i>
+                    <i class="material-icons">shopping_cart</i>
+                    <i>Cart(1)</i>
+                </th>
+            </tr>
+        </table>
+        <div class="container">
+            <table>
+                <tr>
+                    <td>
+                        <h2>keranjang anda</h2>
+                    </td>
+                </tr>
+                <tr style="text-align:left;">
+                    <th sty>Item</th>
+                    <th></th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td rowspan="30" width="100px"><img src="persija.jpeg" width="150" height="150"
+                            style="border-radius: 5%; margin-right: 10px;"></td>
+                </tr>
+                <tr>
+                    <td>Jersey Training Orange <br> Size Large</td>
+                    <td><b>Rp.699.000</b></td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Subtotal: <b>Rp.699.000</b></td>
+                </tr>
+            </table>
+            <aside>
+                <table>
+                    <tr>
+                        <td>
+                            <h2 style="text-align:center">Summary ( 1 item )</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td style="text-align:right">Rp.699.000</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td style="text-align:right">-</td>
+                    </tr>
+                    <tr>
+                        <td>Est. Taxes</td>
+                        <td style="text-align:right">-</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td style="text-align:right">Rp.699.000</td>
+                    </tr>
+                </table>
+                <tr>
+                    <td><input type="submit" name="Checkout" value="Checkout"></td>
+                </tr>
+            </aside>
+        </div>
+        <table>
+            <tr>
+                <th>SHOPPE</th>
+                <th><a href="">Kategoty 1 |</a>
+                    <a href="">Kategoty 2 |</a>
+                    <a href="">Kategoty 3 |</a>
+                </th>
+                <th><input type="text" placeholder="enter email" style="margin: 20px;">
+                    <input type="submit" value="Kirim" style="margin: 20px; margin-left: -30px;">
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
