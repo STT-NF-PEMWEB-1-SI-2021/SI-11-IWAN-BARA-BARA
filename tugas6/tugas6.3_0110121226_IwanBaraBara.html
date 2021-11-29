@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>tugas6.3</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+        }
+
+        body {
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+            min-height: 97vh;
+            margin: 10px;
+        }
+
+        .main {
+            display: flex;
+            flex: 1;
+            margin: 10px 0;
+        }
+
+        .main>aside {
+            flex: 0 0 20vw;
+            order: 1;
+            background-color: rgb(11, 107, 119);
+            line-height: 500px;
+            margin-right: 10px;
+        }
+
+        .main>article {
+            flex: 1;
+            order: 2;
+            background-color: rgb(240, 10, 56);
+        }
+
+        header,
+        footer {
+            background-color: rgb(0, 204, 255);
+            padding: 15px 50px;
+        }
+
+        img {
+            width: 200px;
+            padding: 1em;
+        }
+
+        p {
+            margin-top: 240px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Header</header>
+    <div class="main">
+        <aside>Aside</aside>
+        <article>
+            <p> Article </p>
+            <img src="ronaldo.jpg" alt="">
+            <img src="simic.jpg" alt="">
+            <img src="mbappe.jpg" alt="">
+        </article>
+    </div>
+    <footer>Footer</footer>
+</body>
