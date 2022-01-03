@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <script>
+        function gambar() {
+            let pict = document.getElementById("gambar").value;
+            alert("Ini gambar " + pict);
+            if (pict == "angsa.jpg") {
+                document.getElementById("muncul_gambar").src = "angsa.jpg";
+            }
+            else if (pict == "buaya.jpg") {
+                document.getElementById("muncul_gambar").src = "buaya.jpg";
+            }
+            else if (pict == "gajah.jpg") {
+                document.getElementById("muncul_gambar").src = "gajah.jpg";
+            }
+            else if (pict == "gorilla.jpg") {
+                document.getElementById("muncul_gambar").src = "gorilla.jpg";
+            }
+            else if (pict == "kelinci.jpg") {
+                document.getElementById("muncul_gambar").src = "kelinci.jpg";
+            }
+            else if (pict == "macan.jpg") {
+                document.getElementById("muncul_gambar").src = "macan.jpg";
+            }
+            else if (pict == "sapi.jpg") {
+                document.getElementById("muncul_gambar").src = "sapi.jpg";
+            }
+        }
+    </script>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 20px;
+            width: 50%;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <select id="gambar" name="gambar" onchange="gambar()">
+            <option value="angsa.jpg">angsa</option>
+            <option value="buaya.jpg">buaya</option>
+            <option value="gajah.jpg">gajah</option>
+            <option value="gorilla.jpg">gorilla</option>
+            <option value="kelinci.jpg">kelinci</option>
+            <option value="macan.jpg">macan</option>
+            <option value="sapi.jpg">sapi</option>
+        </select>
+        <br />
+        <img id="muncul_gambar" src="angsa.jpg" alt="munculgambar" style="width: 50%;">
+    </div>
+</body>
+
+</html>
